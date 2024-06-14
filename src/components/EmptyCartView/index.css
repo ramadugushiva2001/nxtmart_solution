@@ -1,0 +1,29 @@
+.empty-cart-view {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 60vh;
+}
+.cart-img {
+  width: 100px;
+  height: 80px;
+}
+
+.shop-now-button {
+  width: 120px;
+  height: 40px;
+  background-color: #088c03;
+  color: #ffffff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  outline: none;
+}
+
+@media screen and (max-width: 767px) {
+  .empty-cart-view {
+    height: 90vh;
+  }
+}
